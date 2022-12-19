@@ -1,0 +1,193 @@
+*{
+    box-sizing: border-box;
+    
+}
+.body{
+
+    font-family:'Sen', sans-serif;;
+   
+}
+.header{
+ 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 40px;
+    border-bottom: 4px solid #ffffff;
+}
+.navbar{
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-menu{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    text-align: center;
+}   
+.navbar-item{
+    margin-left: 40px;
+    margin-right: 40px;
+   
+}
+.navbar-link{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+}
+.navbar-text{
+    display: block;
+    color: rgb(0, 0, 0);
+    margin-bottom: 4px;
+    font-size: 14px;
+    line-height: 16px;
+}
+.navbar-contacts{
+    text-align: right;
+}
+.navbar-phone{
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+/* начинается все после головы */
+
+.blok{
+    margin: 20px 0 50px 220px;
+}
+.sitename{
+    margin-bottom: 120px;
+    font: 20px Arial;
+}
+.container{
+    display: flex;
+    border: 1px solid rgb(255, 255, 255);
+    
+}
+
+footer{
+    margin-left: 30px;
+    padding: 30px 0;
+    width: 950px;
+    text-align: center;
+
+}
+.blok{
+    margin: 20px 0 50px 220px;
+}
+.sitename{
+    margin: 10px;
+    font: 20px Arial;
+}
+nav{
+    display: flex;
+}
+nav a{
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font: 15px Arial;
+}
+nav a:hover, nav a :active{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    background:  yellow;
+}
+main h3{
+    font-weight: bolder;
+    font: 200px;
+}
+main p{
+    text-align: justify;
+    font: 15px Arial;
+    line-height: 30px;
+}
+.main_img-float{
+    width: 190px;
+    margin-right: 20px;
+    float: left;
+}
+.container1{
+    display: flex;
+    width: 400px;
+    
+}
+
+.left{
+    margin: 20px;
+   
+ 
+}
+.services_img{
+    width: 500px;
+    
+}
+.black{
+    font: 26px "Times New Romans";
+    text-align: left;
+    width: 300px;
+    height: 40px;
+    background-color: black;
+   
+}
+#panorama{
+    margin-left: 20px;
+    margin-right: 200px;
+    width: 940px;
+    text-align: center;
+    height: 240px;
+    background: url(img/img.jpg) no-repeat center 50%;
+    background-size: cover; /*масштабирование фона*/
+}
+main{
+    width: 1200px;
+    padding: 2px;
+  
+}
+
+main a:hover, main a:active{
+    color: yellow;
+    text-decoration-line: none;
+    text-decoration: aqua;
+}
+a{
+    color: rgb(255, 196, 4);
+    text-decoration-line: none;
+}
+.container2{
+    margin: 10px;
+    width: 300px;
+    height: 280px;
+    margin-left: 60px;
+   
+}
+.wrapper{
+    width: 1000px;
+    height: 1560px;
+    margin: 0 auto;
+    
+}
+.container21{
+    width: 600px;
+}
+
+p{
+    font: 20px "Times New Romans";
+    margin: 10px;
+    line-height: 31px;
+}
+a:active{
+    background-color: yellow;
+}
+.red{
+    font-size: 47px;
+}
+.com{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
